@@ -5,7 +5,7 @@ class Color(Enum):
     LIGHT = "#ffffff"
     DARK = "#000000"
     PRIMARY = "#640DAD"
-    LILA = "#8A2BE2"
+    LILA = "#4B0082"
     YELLOW = "#FFA61E"
     ORANGE = "#FF5500"
 
