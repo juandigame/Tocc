@@ -3,9 +3,9 @@ from enum import Enum
 
 class Color(Enum):
     LIGHT = "#ffffff"
-    DARK = "#1A1A1A"
-    PRIMARY = "#3EB0F9"
-    PURPLE = "#7D00FE"
+    DARK = "#000000"
+    PRIMARY = "#640DAD"
+    LILA = "#8A2BE2"
     YELLOW = "#FFA61E"
     ORANGE = "#FF5500"
 

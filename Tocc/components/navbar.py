@@ -9,14 +9,22 @@ def navbar() -> rx.Component:
             rx.image(src="/logo.png", 
                      width="80px", 
                      height="auto", 
-                     alt="TOCC TECHNOLOGY"
+                     alt="TOCC TECHNOLOGY",
                      ),
         ),
+        rx.spacer(),
+        rx.hstack(
+            rx.link(rx.text("Servicios", size="6",)),
+            rx.link(rx.text("Nosotros", size="6")),
+            rx.link(rx.text("Contactanos", size="6")),
+            spacing="6",
+        ),
         position="sticky",
-        bg=Color.DARK.value,
+        bg=Color.LILA.value,
         border_bottom="1px solid rgba(247, 247, 247, 0.2)",
-        padding_x=Size.BIG.value,
+        padding_x=Size.VERY_BIG.value,
         padding_y=Size.DEFAULT.value,
-        z_index="9999",
+        align="center",    
+        z_index="999",
         top="0"
     )
