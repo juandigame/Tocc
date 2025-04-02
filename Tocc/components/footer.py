@@ -17,6 +17,7 @@ def footer() -> rx.Component:
                 spacing="2",
                 align="start", 
             ),
+            rx.spacer(flex = "0.1"),
             rx.vstack(
                 rx.text("¿Tienes dudas?", size="4"),
                 rx.vstack(
