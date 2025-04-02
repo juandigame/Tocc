@@ -6,8 +6,8 @@ class Color(Enum):
     DARK = "#000000"
     PRIMARY = "#640DAD"
     LILA = "#4B0082"
-    YELLOW = "#FFA61E"
-    ORANGE = "#FF5500"
+    MORADO_CLARO = "#D29BFD"
+    PURPLE = "#6532A9"
 
 
 class TextColor(Enum):

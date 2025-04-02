@@ -2,6 +2,9 @@ import reflex as rx
 import Tocc.styles.styles as styles
 from .components.navbar import navbar
 from .components.footer import footer
+from Tocc.styles.styles import Size
+from Tocc.views.header import header
+
 
 class State(rx.State):
     pass
@@ -9,6 +12,15 @@ class State(rx.State):
 def index() -> rx.Component:
     return rx.box(
         navbar(),
+        rx.center(
+            rx.vstack(
+                header(),
+                bg=styles.Color.MORADO_CLARO.value,
+                width="100%",
+                padding_x=Size.DEFAULT.value,
+                padding_y=Size.DEFAULT.value,
+            )
+        ),
         footer(),
     )
 
