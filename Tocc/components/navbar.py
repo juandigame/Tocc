@@ -7,7 +7,7 @@ def navbar() -> rx.Component:
     return rx.hstack(
         rx.link(
             rx.image(src="/logo.png", 
-                     width="80px", 
+                     width="50px", 
                      height="auto", 
                      alt="TOCC TECHNOLOGY",
                      ),
