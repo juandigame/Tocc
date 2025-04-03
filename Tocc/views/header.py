@@ -81,6 +81,10 @@ def header() -> rx.Component:
                 border_radius="10px",
                 padding_x=Size.DEFAULT.value,
                 padding_y=Size.DEFAULT.value,
+                _hover={
+                    "transform": "scale(1.05)",
+                    "transition": "transform 0.3s ease-in-out",
+                },
                 ),
                 rx.vstack(
                     rx.image(src="/ciberseguridad.png",
@@ -99,6 +103,10 @@ def header() -> rx.Component:
                 border_radius="10px",
                 padding_x=Size.DEFAULT.value,
                 padding_y=Size.DEFAULT.value,
+                _hover={
+                    "transform": "scale(1.05)",
+                    "transition": "transform 0.1s ease-in-out",
+                },
                 ),
                 rx.vstack(
                     rx.image(src="/asesorias.png",
@@ -117,6 +125,10 @@ def header() -> rx.Component:
                 border_radius="10px",
                 padding_x=Size.DEFAULT.value,
                 padding_y=Size.DEFAULT.value,
+                _hover={
+                    "transform": "scale(1.05)",
+                    "transition": "transform 0.3s ease-in-out",
+                },
                 ),
                 rx.vstack(
                     rx.image(src="/harware.png",
@@ -135,6 +147,10 @@ def header() -> rx.Component:
                 border_radius="10px",
                 padding_x=Size.DEFAULT.value,
                 padding_y=Size.DEFAULT.value,
+                _hover={
+                    "transform": "scale(1.05)",
+                    "transition": "transform 0.3s ease-in-out",
+                },
                 ),
                 spacing="4",
                 width="100%",

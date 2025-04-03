@@ -4,6 +4,7 @@ from .components.navbar import navbar
 from .components.footer import footer
 from Tocc.styles.styles import Size
 from Tocc.views.header import header
+from Tocc.views.form import form
 
 
 class State(rx.State):
@@ -29,7 +30,7 @@ def contactanos() -> rx.Component:
         navbar(),
         rx.center(
             rx.vstack(
-                header(),
+                form(),
                 bg=styles.Color.MORADO_CLARO.value,
                 width="100%",
                 padding_x=Size.DEFAULT.value,
@@ -44,7 +45,6 @@ def servicios() -> rx.Component:
         navbar(),
         rx.center(
             rx.vstack(
-                header(),
                 bg=styles.Color.MORADO_CLARO.value,
                 width="100%",
                 padding_x=Size.DEFAULT.value,
@@ -59,7 +59,6 @@ def nosotros() -> rx.Component:
         navbar(),
         rx.center(
             rx.vstack(
-                header(),
                 bg=styles.Color.MORADO_CLARO.value,
                 width="100%",
                 padding_x=Size.DEFAULT.value,
