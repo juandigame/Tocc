@@ -17,8 +17,9 @@ def footer() -> rx.Component:
                 spacing="2",
                 align="start", 
             ),
+            rx.spacer(flex="0.1"), 
             rx.vstack(
-                rx.text("¿Tienes dudas?", size="4"),
+                rx.text("Estamos para ayudarte", size="4"),
                 rx.vstack(
                     rx.hstack(
                         rx.icon(tag="mail", size=20),
@@ -31,7 +32,7 @@ def footer() -> rx.Component:
                     spacing="1",
                 ),
                 spacing="2",
-                align="start",  
+                align="start", 
             ),
             rx.spacer(), 
             border_bottom="1px solid rgba(247, 247, 247, 0.2)",
@@ -44,6 +45,7 @@ def footer() -> rx.Component:
             padding_y=Size.SMALL.value,  
             align="center",
         ),
+        width="100%",
         align="center",
         padding_bottom=Size.VERY_BIG.value,
         padding_x=Size.BIG.value,
